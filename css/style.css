@@ -4,7 +4,7 @@
 	.cf:after { clear: both; }
 	.cf { *zoom: 1; }
 
-	@font-face {
+/*	@font-face {
 		font-family: 'icomoon';
 		src:url('img/icons/icomoon.eot');
 		src:url('img/icons/icomoon.eot?#iefix') format('embedded-opentype'),
@@ -29,7 +29,7 @@
 	.icon-twitter:before {content: "\e601";}
 	.icon-gplus:before {content: "\e602";}
 	.icon-facebook:before {content: "\e603";}
-
+*/
 	* {
 		-webkit-box-sizing:border-box;
 		-moz-box-sizing:border-box;
@@ -161,7 +161,11 @@
 		text-align: center;
 	}
 
-	nav{
+	a{
+		color: #fff;
+	}
+
+/*	nav{
 		margin-bottom: 25px;
 	}
 
@@ -181,7 +185,7 @@
 	nav a:hover{
 		color: rgba(255,255,255,1);
 	}
-
+*/
 
 	h1,
 	.btn{
